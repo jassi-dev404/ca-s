@@ -1,6 +1,7 @@
 import GradientASCII from './GradientASCII.jsx'
 import TechText from './TechText.jsx'
 import nitikImg from './assets/nitik.png';
+import soundiesImg from './assets/soundies.jpeg'
 import './App.css'
 
 function App() {
@@ -50,8 +51,20 @@ function App() {
         this animal does not do much, its kinda cool
       </p>
       <p style={{ fontSize: '1.2rem', margin: 0 }}>
-        his website is <a href='nitikpsn.xyz' target='_blank' class="text-blue-400">nitikpsn.xyz</a>
+        his website is <a href='https://www.nitikpsn.xyz/' target='_blank' class="text-blue-400">nitikpsn.xyz</a>
       </p>
+
+      <img
+        src={soundiesImg}
+        alt="nitik"
+        style={{ height: '300px', width: 'auto', objectFit: 'contain',}}
+        href="cool.com"
+        class="pt-10"
+      />
+      <p style={{ fontSize: '1.2rem', margin: 0 }}>
+        soundies i got because i went from 8th place to 0 :_)
+      </p>
+
     </div>
   )
 }
