@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+::-webkit-scrollbar {
+  background-color: transparent;
+  width: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #27272A;
+}
+
+body {
+  background-color: #27272A;
+  font-family: monospace;
+}
+
+img {
+  float: right;
+}
+
+p {
+  float: right;
+}
